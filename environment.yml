@@ -1,0 +1,17 @@
+name: AlphaCompetition
+channels:
+  - default
+  - conda-forge
+dependencies:
+  - python>=3.11,<3.12
+  - ipython
+  - ipykernel
+  - pip
+  - pip:
+      - beartype==0.19.0
+      - ibapi==9.81.1.post1
+      - matplotlib==3.9.2
+      - pandas==2.2.3
+      - pydantic==2.9.2
+      - pydantic-settings==2.5.2
+      - yfinance==0.2.44
